@@ -1,0 +1,64 @@
+{
+    "bot": {
+        "name": "DeshiCraft Server Monitor",
+        "description": "Server monitoring solution for DeshiCraft • Developed by Foysal (Discord: onion.orbit)",
+        "version": "1.0.1",
+        "prefix": "!",
+        "cooldown": 2000,
+        "author": "Developed by Foysal",
+        "authorTag": "Foysal",
+        "authorDiscord": "onion.orbit",
+        "buildDate": "2025-06",
+        "environment": "production"
+    },
+    "server": {
+        "address": "deshicraft.c-om.net:2025",
+        "host": "deshicraft.c-om.net",
+        "port": 2025,
+        "name": "DeshiCraft Server",
+        "autoRefresh": true,
+        "refreshInterval": 30000
+    },
+    "colors": {
+        "primary": "0x5865F2",
+        "success": "0x57F287",
+        "error": "0xED4245",
+        "warning": "0xFEE75C",
+        "background": "0x2F3136"
+    },
+    "minecraft": {
+        "defaultPort": 25565,
+        "timeout": 8000,
+        "maxPlayers": 100,
+        "detailedByDefault": true
+    },
+    "embeds": {
+        "maxFields": 25,
+        "maxFieldNameLength": 256,
+        "maxFieldValueLength": 1024,
+        "maxDescriptionLength": 4096,
+        "thumbnailUrl": "https://media.discordapp.net/attachments/1383663822996508803/1384910371780952184/favicon.png"
+    },
+    "messages": {
+        "serverOffline": "Target is unavailable",
+        "invalidAddress": "Monitoring scope restricted to authorized DeshiCraft infrastructure",
+        "timeout": "Timeout Error",
+        "unknownError": "A unexpected error occured",
+        "noPlayers": "No player is active on the Server - monitoring active",
+        "restricted": "403 Forbidden - Access Denied"
+    },
+    "performance": {
+        "connectionTimeout": 5000,
+        "retryProtocols": 3,
+        "cacheTTL": 30000,
+        "maxConcurrentQueries": 5,
+        "healthCheckInterval": 60000
+    },
+    "features": {
+        "enterpriseMonitoring": true,
+        "realTimeAnalytics": true,
+        "advancedDiagnostics": true,
+        "faultTolerantArchitecture": true,
+        "professionalReporting": true
+    }
+}
